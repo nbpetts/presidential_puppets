@@ -20,11 +20,14 @@
 
 main {
   background-color: black;
+  display: flex;
+  justify-content: space-around;
 }
 
-.carter-wrapper {
+.carter-wrapper,
+.reagan-wrapper {
   width: 30%;
-  margin: 0 auto;
+
   height: 100vh;
   position: relative;
 }
@@ -34,9 +37,17 @@ main {
 .carter-mouth {
   background-image: url(./images/carterMouth.png);
 }
+.reagan-face {
+  background-image: url(./images/reaganFace.png);
+}
+.reagan-mouth {
+  background-image: url(./images/reaganMouth.png);
+}
 
 .carter-face,
-.carter-mouth {
+.carter-mouth,
+.reagan-face,
+.reagan-mouth {
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
