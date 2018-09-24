@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  display: block;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+main {
+  background-color: black;
+}
+
+.carter-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+.carter-face {
+  background-image: url(./images/carterFace.png);
+}
+.carter-mouth {
+  background-image: url(./images/carterMouth.png);
+}
+
+.carter-face,
+.carter-mouth {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+}
